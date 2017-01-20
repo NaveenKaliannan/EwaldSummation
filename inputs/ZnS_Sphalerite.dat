@@ -1,0 +1,54 @@
+1 1 1
+2.347
+8
+2
+2 -2
+5.42 5.42 5.42
+0.00 0.00 0.00 -2
+0.00 0.50 0.50 -2
+0.50 0.50 0.00 -2
+0.50 0.00 0.50 -2
+0.25 0.25 0.25 +2
+0.25 0.75 0.75 +2
+0.75 0.75 0.25 +2
+0.75 0.25 0.75 +2
+
+
+
+Note: Only parameter that can be adjusted here is the first line the number of unit cell 
+      in each direction. Other parameters are fixed. Please dont change.
+/*------------------------------------*/
+
+Modifiable:
+
+1 1 1 - Number of unit cell in each direction (1 1 1 - only one unit cell, 1 1 2 - 1 unit cell in x, y and 2 in z direction, totally 3)
+
+
+Constant:
+
+2.347 is the nearest distance between Zn and S
+
+
+8 atoms (4 Zn + 4 S)
+
+
+4 ZnS groups but 2 is taken because a small change is made in algorithm
+
+
+Zn atomic charge = +2, S atomic charge = -2
+
+
+size of the cell in angstrom in the 3 directions x, y z = 5.42 5.42 5.42
+
+
+position of the Zn and S atoms in the Sphalertie
+0.00 0.00 0.00 -2
+0.00 0.50 0.50 -2
+0.50 0.50 0.00 -2
+0.50 0.00 0.50 -2
+0.25 0.25 0.25 +2
+0.25 0.75 0.75 +2
+0.75 0.75 0.25 +2
+0.75 0.25 0.75 +2 
+
+/*------------------------------------*/

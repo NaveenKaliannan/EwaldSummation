@@ -1,0 +1,52 @@
+1 1 1
+1.94614
+6
+2
+4 -2
+4.59370 4.59370 2.9581
+0.3053 0.3053 0.0000 -2
+0.1947 0.8053 0.5000 -2
+0.6947 0.6947 0.0000 -2
+0.8053 0.1947 0.5000 -2
+0.0000 0.0000 0.0000 +4
+0.5000 0.5000 0.5000 +4
+
+
+Note: Only parameter that can be adjusted here is the first line the number of unit cell 
+      in each direction. Other parameters are fixed. Please dont change.
+/*------------------------------------*/
+
+Modifiable:
+
+1 1 1 - Number of unit cell in each direction (1 1 1 - only one unit cell, 1 1 2 - 1 unit cell in x, y and 2 in z direction, totally 3)
+
+
+Constant:
+
+1.94614 is the nearest distance between Ti and O (r0)
+
+
+6 atoms (4 oxygen + 4 Ti atoms) in the basic rutile structure
+
+
+2 TiO_2 groups in basic rutile structure
+
+
+Ti atomic charge  = 4, oxygen atomic charge = -2
+
+
+size of the cell in angstrom in the 3 directions x, y z = 4.59370 4.59370 2.9581
+
+
+position of the Ti and oxygen atoms in the basic rutile structure
+0.3053 0.3053 0.0000 -2
+0.1947 0.8053 0.5000 -2
+0.6947 0.6947 0.0000 -2
+0.8053 0.1947 0.5000 -2
+0.0000 0.0000 0.0000 +4
+0.5000 0.5000 0.5000 +4
+
+
+/*------------------------------------*/
+
+
