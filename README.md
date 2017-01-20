@@ -8,10 +8,10 @@ for differnt crystal structure is shown in the below figures:
 Madelung constant = 2.22
 ![alt tag](https://raw.githubusercontent.com/NaveenKaliannan/EwaldSummation/master/output/graph/silica.png)
 
-## 1. TiO2 (Rutile)
+## 2. TiO2 (Rutile)
 Madelung constant = 2.40
 ![alt tag](https://raw.githubusercontent.com/NaveenKaliannan/EwaldSummation/master/output/graph/rutile.png)
 
-## 1. ZnS (Sphalerite)
+## 3. ZnS (Sphalerite)
 Madelung constant = 1.63
 ![alt tag](https://raw.githubusercontent.com/NaveenKaliannan/EwaldSummation/master/output/graph/ZnS.png)
