@@ -37,7 +37,7 @@ Note: Only parameter that can be adjusted here is the first line the number of u
 
 Modifiable:
 
-1 1 1 - Number of unit cell in each direction (1 1 1 - only one unit cell, 1 1 2 - 1 unit cell in x, y and 2 in z direction, totally 3)
+1 1 1 - Number of unit cell in each direction (1 1 1 means one unit cell, 1 1 2 - means 2 unit cell, 1 2 2 - means 4 unit cell)
 
 
 Constant:
