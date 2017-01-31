@@ -4,17 +4,28 @@
 #include<vector>
 #include "ewald.h"
 
+// main.cpp computes the Madelung constant for the given crystal structure
+// of the material. Ewald summation is used to find the constant. The output 
+// can be seen in the output/graph folder
+
 using namespace std;
 
 const double Pi = 3.1415927;
 
+// Main implementation
 int main(int argc, char* argv[])
 {
+  // Number of unit cell in x, y and z direction - nx ny nz   
   unsigned int nx = 0, ny = 0, nz = 0;
+  // Closest distance between a pair atoms - r0
   double r0 = 0;
+  // Number of atoms in the unit cell - N
   unsigned int N = 0;
+  // Number of groups - per
   unsigned int per = 0;
+  // Length of the basic unit cell - Lx Ly Lz
   double Lx = 0, Ly = 0, Lz = 0, V;
+  // Charges of the system - q1 q2
   double q1 = 0 , q2 = 0 ;
   ifstream infile(argv[1]);
   infile >> nx >> ny >> nz ;
@@ -25,9 +36,6 @@ int main(int argc, char* argv[])
   vector<double> r(N*4*nx*ny*nz);
   infile >> q1 >> q2 ;
   infile >> Lx >> Ly >> Lz;
-  Lx /= r0;
-  Ly /= r0;
-  Lz /= r0;
 
   for(unsigned int i = 0; i < (N*4); i += 4)
     {
@@ -37,6 +45,7 @@ int main(int argc, char* argv[])
   infile.close();
   infile.clear();
 
+  // replicates the unit cell
   unsigned int i = 0;
   for(unsigned int x = 0; x < nx; ++x)
     {
@@ -69,7 +78,7 @@ int main(int argc, char* argv[])
       U1 = RealandReciprocalSpace(r, Lx, Ly, Lz, k, 2);
       U2 = k * PointEnergy(r) / sqrt(Pi);
       U3 =  2 * Pi * pow(Dipole(r),2) / (3 * V);
-      outfile << k << " " << ( U1 + U2 ) / (-8.0 * per) << "\n" ;
+      outfile << k << " " << ( U1 + U2 ) * r0 / (-8.0 * per) << "\n" ;
     }
   outfile.close();
   outfile.clear();
