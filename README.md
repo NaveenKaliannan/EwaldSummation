@@ -14,3 +14,7 @@ Madelung constant for TiO2 (Rutile) = 2.40
 ## 3. ZnS (Sphalerite)
 Madelung constant for ZnS (Sphalerite) = 1.63
 ![alt tag](https://raw.githubusercontent.com/NaveenKaliannan/EwaldSummation/master/output/graph/ZnS.png)
+
+## 4. Al2O3 (corrundum)
+Madelung constant for Al2O3 (corrundum) = 4.17
+![alt tag](https://raw.githubusercontent.com/NaveenKaliannan/EwaldSummation/master/output/graph/Al2O3_Corundum.png)
