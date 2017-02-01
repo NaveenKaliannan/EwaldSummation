@@ -1,0 +1,59 @@
+1 1 1
+1.97245
+10
+1
+3 -2
+5.128 5.128 5.128
+0.35228    0.35228    0.35228  3
+-0.35228   -0.35228   -0.35228 3
+0.14772    0.14772    0.14772  3
+-0.14772   -0.14772   -0.14772 3
+-0.0564    0.5564    0.2500   -2
+0.0564    -0.5564    -0.2500  -2
+0.5564    0.2500   -0.0564    -2
+-0.5564   -0.2500    0.0564   -2
+0.2500   -0.0564    0.5564    -2
+-0.2500    0.0564   -0.5564   -2
+
+
+
+Note: Only parameter that can be adjusted here is the first line the number of unit cell 
+      in each direction. Other parameters are fixed. Please dont change.
+/*------------------------------------*/
+
+Modifiable:
+
+1 1 1 - Number of unit cell in each direction (1 1 1 means one unit cell, 1 1 2 - means 2 unit cell, 1 2 2 - means 4 unit cell)
+
+
+Constant:
+
+1.97245 is the nearest distance between alumuinum and oxygen (r0)
+
+
+10 atoms (6 oxygen + 8 aluminium atoms)
+
+
+1 adjusted values
+
+
+aluminium atomic charge  = 3, oxygen atomic charge = -2
+
+
+size of the cell in angstrom in the 3 directions x, y z = 5.128 5.128 5.128
+
+
+position of the aluminium and oxygen atoms in the basic beta Al2O3 corrundum structure
+0.35228    0.35228    0.35228  3
+-0.35228   -0.35228   -0.35228 3
+0.14772    0.14772    0.14772  3
+-0.14772   -0.14772   -0.14772 3
+-0.0564    0.5564    0.2500   -2
+0.0564    -0.5564    -0.2500  -2
+0.5564    0.2500   -0.0564    -2
+-0.5564   -0.2500    0.0564   -2
+0.2500   -0.0564    0.5564    -2
+-0.2500    0.0564   -0.5564   -2
+
+
+/*------------------------------------*/

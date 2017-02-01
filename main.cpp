@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
 
   double U1 = 0, U2 = 0, U3 = 0;
   ofstream outfile (argv[2]);
-  for(double k = 0.01;k < 3;k += 0.05)
+  for(double k = 0.01;k < 5;k += 0.05)
     {
       U1 = RealandReciprocalSpace(r, Lx, Ly, Lz, k, 2);
       U2 = k * PointEnergy(r) / sqrt(Pi);
