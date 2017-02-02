@@ -1,7 +1,7 @@
 # EwaldSummation
 ##  Ewald summation program for computing the long range Coulomb interactions in 3D Periodic systems.  
 Because the equation in Ewald summation program is complicated, it must be checked and verified. Here we do this by calculating the Madelung constant for the crystal structure of SiO2(beta-cristobalite)
-, TiO2(rutile) and ZnS(Sphalerite). If the Madeulng constant is correct, then the Ewald sum works correctly. The calculated Madelung constants for the crystal structures are shown in the below figures:
+, TiO2(rutile),  Al2O3 (corrundum) and ZnS(Sphalerite). If the Madeulng constant is correct, then the Ewald sum works correctly. The calculated Madelung constants for the crystal structures are shown in the below figures:
 
 ## 1. Silica (Beta-cristobalite)
 Madelung constant for silica (beta-cristobalite) = 2.22
