@@ -1,7 +1,6 @@
 
 // main.cpp computes the Madelung constant for the given crystal structure
-// of the material. Ewald summation is used to find the constant. The output 
-// can be seen in the output/graph folder
+// of the material. The output can be seen in the output/graph folder
 
 #include<iostream>
 #include<cmath>
