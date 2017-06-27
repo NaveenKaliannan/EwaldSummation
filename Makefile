@@ -4,4 +4,6 @@ main:main.cpp ewald.cpp
 
 clean:
 	rm -f main
+	rm -f output/data/*
+	rm -f output/graph/*
 
